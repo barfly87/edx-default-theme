@@ -92,7 +92,7 @@ $header-graphic-sub-color: $lighter-base-font-color;
 $header-link-color: $dark-color;
 $header-link-hover: $light-color;
 
-$button-color: $main-color;
+$button-color: transparentize($main-color, .9);//$main-color;
 $button-archive-color: $gray-3;
 
 $shadow-color: $gray;
