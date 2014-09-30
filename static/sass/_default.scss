@@ -1,5 +1,5 @@
 /****************************************************************************************************
-*   Stanford Theming File
+*   KI theming File
 *
 *   Contains all the theme color definitions for the Stanford Open Source MOOC Project
 *
@@ -10,28 +10,28 @@
 //-----------------
 
 //Main Color Variables
-$main-color: #f7691f;
-$dark-color: #ea281f; //Link Color
-$light-color: #f4e00c; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
-$bg-color: #f7fe81; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
+$main-color: #ffffff;//Changed from f7691f
+$dark-color: #ffffff; //Link Color Changed from ea281f
+$light-color: #ffffff; //Selected Header BG Color, ie. calendar        ***Custom, not from palette*** Changed from f4e00c
+$bg-color: #ffffff; //Selected Content BG Color, ie. calendar          ***Custom, not from palette*** Changed from f7fe81
 
 //Main BG Color Variables
-$main-bg: #822537;
-$main-bg-60: lighten($main-bg, 18.5%); //Main Border/HR Color
-$main-bg-25: lighten($main-bg, 25%); 
+$main-bg: #870052; //Changed from 822537
+$main-bg-60: lighten($main-bg, 0.1%); //Main Border/HR Color 18.5%
+$main-bg-25: lighten($main-bg, 0.1%);  //25% 
 
 //Secondary Color Variables
-$secondary: #b5a4b7;
-$secondary-50: lighten($secondary, 9%);
-$secondary-25: lighten($secondary, 20%); //Important Heading BG Color 
+$secondary: #870052;//Changed from b5a4b7
+$secondary-50: lighten($secondary, 0.1%); //9%
+$secondary-25: lighten($secondary, 0.1%); //Important Heading BG Color 20%
 
 //Gray Color Variables
-$gray: #3f3f3f; //Main Text Color
-$gray-75: lighten($gray, 18.25%); //Lighter Text Color
+$gray: #ffffff; //Main Text Color Changed from 3f3f3f
+$gray-75: lighten($gray, 1%); //Lighter Text Color 18.25%
 
-$gray-3: #e9e9e9; //Block/Course BG Color
-$gray-2: #f2f2f2;
-$gray-1: #fbfbfb; //Main BG Color
+$gray-3: #e9e9e9; //Block/Course BG Color Changed from e9e9e9
+$gray-2: #f2f2f2; //Changed from f2f2f2
+$gray-1: #fbfbfb; //Main BG Color 
 $white: $gray-1;
 
 $black: #2e2e2e;
@@ -54,7 +54,7 @@ $serif: $theme-serif-font, $serif;
 
 
 //-----------------
-//  Theme Element Assignments
+//  Theme Element 
 //-----------------
 
 $body-bg: $gray-1;
@@ -62,7 +62,7 @@ $container-bg: $gray-1;
 $login-register-bg: $gray-1;
 $content-wrapper-bg: $gray-1;
 $header-image: none;
-$header-bg: transparentize(lighten($secondary, 18.5%), .25);
+$header-bg: transparentize(lighten($secondary, 0.5%), .05);//18.5% .25
 $courseware-header-image: none;
 $courseware-header-bg: transparentize(lighten($secondary, 18.5%), .25);
 $footer-bg: $secondary-25;
@@ -92,7 +92,7 @@ $header-graphic-sub-color: $lighter-base-font-color;
 $header-link-color: $dark-color;
 $header-link-hover: $light-color;
 
-$button-color: $main-color;
+$button-color: transparentize($main-color, .9);//$main-color;
 $button-archive-color: $gray-3;
 
 $shadow-color: $gray;
