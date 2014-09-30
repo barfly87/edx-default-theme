@@ -81,7 +81,7 @@ $base-font-color: $black;
 $lighter-base-font-color: $black-80;
 $very-light-text: $gray-1;
 
-$link-color: $dark-color;
+$link-color: $gray-1; //$dark-color;
 $link-color-d1: #870052; //$dark-color; Agree with terms and conditions
 $link-hover: $light-color;
 $site-status-color: $bg-color;
@@ -112,7 +112,7 @@ $action-primary-focused-bg: #870052; //$dark-color; KI color sto login kai creat
 $action-primary-focused-fg: $gray-1;
 
 // current or active navigation item
-$action-primary-active-bg: #996699; //$dark-color; mwv
+$action-primary-active-bg: #ffffff; //$dark-color; mwv
 $action-primary-active-fg: $gray-1;
 $action-primary-active-shadow: none;
 $action-primary-active-focused-fg: $gray-2;
