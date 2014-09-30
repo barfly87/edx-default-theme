@@ -1,5 +1,5 @@
 /****************************************************************************************************
-*   Stanford Theming File
+*   KI theming File
 *
 *   Contains all the theme color definitions for the Stanford Open Source MOOC Project
 *
@@ -22,8 +22,8 @@ $main-bg-25: lighten($main-bg, 1%);  //25%
 
 //Secondary Color Variables
 $secondary: #870052;//Changed from b5a4b7
-$secondary-50: lighten($secondary, 1%); //9%
-$secondary-25: lighten($secondary, 1%); //Important Heading BG Color 20%
+$secondary-50: lighten($secondary, 9%); //
+$secondary-25: lighten($secondary, 20%); //Important Heading BG Color 
 
 //Gray Color Variables
 $gray: #ffffff; //Main Text Color Changed from 3f3f3f
@@ -31,7 +31,7 @@ $gray-75: lighten($gray, 1%); //Lighter Text Color 18.25%
 
 $gray-3: #e9e9e9; //Block/Course BG Color Changed from e9e9e9
 $gray-2: #f2f2f2; //Changed from f2f2f2
-$gray-1: #666666; //Main BG Color Changed from fbfbfb
+$gray-1: #fbfbfb; //Main BG Color 
 $white: $gray-1;
 
 $black: #2e2e2e;
