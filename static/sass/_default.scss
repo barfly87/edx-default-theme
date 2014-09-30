@@ -17,13 +17,13 @@ $bg-color: #ffffff; //Selected Content BG Color, ie. calendar          ***Custom
 
 //Main BG Color Variables
 $main-bg: #870052; //Changed from 822537
-$main-bg-60: lighten($main-bg, 0.5%); //Main Border/HR Color 18.5%
-$main-bg-25: lighten($main-bg, 1%);  //25% 
+$main-bg-60: lighten($main-bg, 0.1%); //Main Border/HR Color 18.5%
+$main-bg-25: lighten($main-bg, 0.1%);  //25% 
 
 //Secondary Color Variables
 $secondary: #870052;//Changed from b5a4b7
-$secondary-50: lighten($secondary, 9%); //
-$secondary-25: lighten($secondary, 20%); //Important Heading BG Color 
+$secondary-50: lighten($secondary, 0.1%); //9%
+$secondary-25: lighten($secondary, 0.1%); //Important Heading BG Color 20%
 
 //Gray Color Variables
 $gray: #ffffff; //Main Text Color Changed from 3f3f3f
@@ -168,8 +168,8 @@ $account-content-wrapper-bg: $gray-1;
 $course-profile-bg: $gray-1;
 $course-header-bg: transparentize($gray-1, .1);
 
-$sidebar-chapter-bg-top: transparentize($gray-1, .3);
-$sidebar-chapter-bg-bottom: transparentize($gray-1, .9);
+$sidebar-chapter-bg-top: transparentize($gray-1, .1);//.3
+$sidebar-chapter-bg-bottom: transparentize($gray-1, .1);//.9
 $sidebar-chapter-bg: $gray-2;
 $sidebar-active-image: $gray-3;
 
