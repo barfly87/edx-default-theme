@@ -82,14 +82,14 @@ $lighter-base-font-color: $black-80;
 $very-light-text: $gray-1;
 
 $link-color: $dark-color;
-$link-color-d1: #FFCC00; //$dark-color; Yellow color
+$link-color-d1: #870052; //$dark-color; Agree with terms and conditions
 $link-hover: $light-color;
 $site-status-color: $bg-color;
 
-$header-graphic-super-color: #A97D5D; //$dark-color; kafe 
+$header-graphic-super-color: #870052; //$dark-color; Welcome/Please login header 
 $header-graphic-sub-color: $lighter-base-font-color;
 
-$header-link-color: #99FF00; //$dark-color; Prasino
+$header-link-color: #ffffff; //$dark-color; Prasino
 $header-link-hover: $light-color;
 
 $button-color: transparentize($main-color, .9);//$main-color;
@@ -108,7 +108,7 @@ $action-primary-fg: $gray-2;
 $action-primary-shadow: none;
 
 // focused - hover/active pseudo states
-$action-primary-focused-bg: #3333FF; //$dark-color; blue
+$action-primary-focused-bg: #870052; //$dark-color; KI color sto login kai create account button
 $action-primary-focused-fg: $gray-1;
 
 // current or active navigation item
