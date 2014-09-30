@@ -17,13 +17,13 @@ $bg-color: #870052; //Selected Content BG Color, ie. calendar          ***Custom
 
 //Main BG Color Variables
 $main-bg: #870052; //Changed from 822537
-//$main-bg-60: lighten($main-bg, 18.5%); //Main Border/HR Color
-//$main-bg-25: lighten($main-bg, 25%); 
+$main-bg-60: lighten($main-bg, 0.5%); //Main Border/HR Color 18.5%
+$main-bg-25: lighten($main-bg, 1%);  //25% 
 
 //Secondary Color Variables
 $secondary: #870052;//Changed from b5a4b7
-//$secondary-50: lighten($secondary, 9%);
-//$secondary-25: lighten($secondary, 20%); //Important Heading BG Color 
+$secondary-50: lighten($secondary, 1%); //9%
+$secondary-25: lighten($secondary, 1%); //Important Heading BG Color 20%
 
 //Gray Color Variables
 $gray: #3f3f3f; //Main Text Color
