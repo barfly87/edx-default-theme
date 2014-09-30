@@ -62,7 +62,7 @@ $container-bg: $gray-1;
 $login-register-bg: $gray-1;
 $content-wrapper-bg: $gray-1;
 $header-image: none;
-$header-bg: transparentize(lighten($secondary, 18.5%), .25);
+$header-bg: transparentize(lighten($secondary, 0.5%), .05);//18.5% .25
 $courseware-header-image: none;
 $courseware-header-bg: transparentize(lighten($secondary, 18.5%), .25);
 $footer-bg: $secondary-25;
@@ -168,8 +168,8 @@ $account-content-wrapper-bg: $gray-1;
 $course-profile-bg: $gray-1;
 $course-header-bg: transparentize($gray-1, .1);
 
-$sidebar-chapter-bg-top: transparentize($gray-1, .1);//.3
-$sidebar-chapter-bg-bottom: transparentize($gray-1, .1);//.9
+$sidebar-chapter-bg-top: transparentize($gray-1, .3);
+$sidebar-chapter-bg-bottom: transparentize($gray-1, .9);
 $sidebar-chapter-bg: $gray-2;
 $sidebar-active-image: $gray-3;
 
