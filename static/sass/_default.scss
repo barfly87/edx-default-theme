@@ -112,15 +112,15 @@ $action-primary-focused-bg: #870052; //$dark-color; KI color sto hover sta 1) Lo
 $action-primary-focused-fg: $gray-1;
 
 // current or active navigation item
-$action-primary-active-bg: #36C529; //$dark-color; 
-$action-primary-active-fg: #36C529; //$gray-1;
+$action-primary-active-bg: $dark-color; 
+$action-primary-active-fg: $gray-1;
 $action-primary-active-shadow: none;
-$action-primary-active-focused-fg: #36C529; //$gray-2;
+$action-primary-active-focused-fg: $gray-2;
 $action-primary-active-focused-shadow: none;
 
 // disabled
-$action-primary-disabled-bg: #36C529; //$gray-75;
-$action-prmary-disabled-fg: #36C529; //$gray-1;
+$action-primary-disabled-bg: $gray-75;
+$action-prmary-disabled-fg: $gray-1;
 
 
 
@@ -146,10 +146,10 @@ $action-secondary-disabled-fg: $gray;
 
 //
 
-$border-color-1: $main-bg-60;
-$border-color-2: $main-bg-60;
-$border-color-3: $main-bg-60;
-$outer-border-color: $main-bg-60;
+$border-color-1: #36C529; //$main-bg-60;
+$border-color-2: #36C529; //$main-bg-60;
+$border-color-3: #36C529; //$main-bg-60;
+$outer-border-color: #36C529; //$main-bg-60;
 
 $sidebar-color: $gray-1;
 
