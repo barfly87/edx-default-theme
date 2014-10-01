@@ -92,7 +92,7 @@ $header-graphic-sub-color: $lighter-base-font-color;
 $header-link-color: #ffffff; //$dark-color; Prasino
 $header-link-hover: $light-color;
 
-$button-color: transparentize(#585858, .9);//$main-color gri
+$button-color: transparentize($main-color, .9);
 $button-archive-color: $gray-3;
 
 $shadow-color: $gray;
@@ -103,7 +103,7 @@ $button-bg-color: $gray-3;
 $button-bg-hover-color: $gray-1;
 
 // actions - primary
-$action-primary-bg: #585858; //$main-color; gri
+$action-primary-bg: #232323; //$main-color; gri
 $action-primary-fg: $gray-2;
 $action-primary-shadow: none;
 
