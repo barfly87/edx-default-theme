@@ -1,7 +1,7 @@
 /****************************************************************************************************
 *   KI theming File
 *
-*   Contains all the theme color definitions for the Stanford Open Source MOOC Project
+*   Contains all the theme color definitions for the KI Open Source MOOC Project
 *
 ****************************************************************************************************/
 
@@ -112,8 +112,8 @@ $action-primary-focused-bg: #870052; //$dark-color; KI color sto login kai creat
 $action-primary-focused-fg: $gray-1;
 
 // current or active navigation item
-$action-primary-active-bg: #ffffff; //$dark-color; mwv
-$action-primary-active-fg: $gray-1;
+$action-primary-active-bg: $dark-color; mwv
+$action-primary-active-fg: #ffffff; //$gray-1;
 $action-primary-active-shadow: none;
 $action-primary-active-focused-fg: $gray-2;
 $action-primary-active-focused-shadow: none;
