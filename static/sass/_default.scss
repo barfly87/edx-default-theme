@@ -92,7 +92,7 @@ $header-graphic-sub-color: $lighter-base-font-color;
 $header-link-color: #ffffff; //$dark-color; Prasino
 $header-link-hover: $light-color;
 
-$button-color: transparentize($main-color, .9);
+$button-color: transparentize(#000000, .9);//$main-color
 $button-archive-color: $gray-3;
 
 $shadow-color: $gray;
@@ -103,7 +103,7 @@ $button-bg-color: $gray-3;
 $button-bg-hover-color: $gray-1;
 
 // actions - primary
-$action-primary-bg: #232323; //$main-color; gri
+$action-primary-bg: #232323; //$main-color; gri color default sta 1) Log into My opened KI Account + Access My Courses kai 2) Create My opened KI Account buttons
 $action-primary-fg: $gray-2;
 $action-primary-shadow: none;
 
