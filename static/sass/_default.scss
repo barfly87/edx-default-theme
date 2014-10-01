@@ -92,15 +92,15 @@ $header-graphic-sub-color: $lighter-base-font-color;
 $header-link-color: #ffffff; //$dark-color; Prasino
 $header-link-hover: $light-color;
 
-$button-color: transparentize(#232323, .5);//$main-color View course button in logged in dashboard and text
+$button-color: transparentize(#232323, .5);//$main-color View course button in logged in dashboard
 $button-archive-color: $gray-3;
 
 $shadow-color: $gray;
 
 // actions
-$button-bg-image: none;
-$button-bg-color: $gray-3;
-$button-bg-hover-color: $gray-1;
+$button-bg-image: none; 
+$button-bg-color: $gray-3; //courseware buttons
+$button-bg-hover-color: $gray-1; //courseware buttons
 
 // actions - primary
 $action-primary-bg: #232323; //$main-color; gri color default sta 1) Log into My opened KI Account + Access My Courses kai 2) Create My opened KI Account buttons
@@ -112,15 +112,15 @@ $action-primary-focused-bg: #870052; //$dark-color; KI color sto hover sta 1) Lo
 $action-primary-focused-fg: $gray-1;
 
 // current or active navigation item
-$action-primary-active-bg: $dark-color; 
-$action-primary-active-fg: $gray-1;
+$action-primary-active-bg: #36C529; //$dark-color; 
+$action-primary-active-fg: #36C529; //$gray-1;
 $action-primary-active-shadow: none;
-$action-primary-active-focused-fg: $gray-2;
+$action-primary-active-focused-fg: #36C529; //$gray-2;
 $action-primary-active-focused-shadow: none;
 
 // disabled
-$action-primary-disabled-bg: $gray-75;
-$action-prmary-disabled-fg: $gray-1;
+$action-primary-disabled-bg: #36C529; //$gray-75;
+$action-prmary-disabled-fg: #36C529; //$gray-1;
 
 
 
