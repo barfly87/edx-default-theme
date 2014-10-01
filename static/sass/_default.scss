@@ -103,12 +103,12 @@ $button-bg-color: $gray-3;
 $button-bg-hover-color: $gray-1;
 
 // actions - primary
-$action-primary-bg: #36C529; //$main-color; prasino
+$action-primary-bg: #585858; //$main-color; gri
 $action-primary-fg: $gray-2;
 $action-primary-shadow: none;
 
 // focused - hover/active pseudo states
-$action-primary-focused-bg: #870052; //$dark-color; KI color sto login kai create account button
+$action-primary-focused-bg: #870052; //$dark-color; KI color sto hover sta 1) Log into My opened KI Account + Access My Courses kai 2) Create My opened KI Account buttons
 $action-primary-focused-fg: $gray-1;
 
 // current or active navigation item
