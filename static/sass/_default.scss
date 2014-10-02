@@ -70,16 +70,16 @@ $courseware-footer-border: 1px solid $main-bg-60;
 $courseware-footer-shadow: box-shadow(2px 1px 0 rgba(0, 0, 0, .1));
 $courseware-footer-margin: 50px;
 
-//$faded-hr-image-1: linear-gradient($main-bg-60 0%, $main-bg-60);
-//$faded-hr-image-2: linear-gradient($main-bg-60 0%, $main-bg-60);
-//$faded-hr-image-3: linear-gradient($main-bg-60 0%, $main-bg-60);
-//$faded-hr-image-4: linear-gradient($main-bg-60 0%, $main-bg-60);
-//$faded-hr-image-5: linear-gradient($main-bg-60 0%, $main-bg-60);
-//$faded-hr-image-6: linear-gradient($main-bg-60 0%, $main-bg-60);
+$faded-hr-image-1: linear-gradient($main-bg-60 0%, $main-bg-60);
+$faded-hr-image-2: linear-gradient($main-bg-60 0%, $main-bg-60);
+$faded-hr-image-3: linear-gradient($main-bg-60 0%, $main-bg-60);
+$faded-hr-image-4: linear-gradient($main-bg-60 0%, $main-bg-60);
+$faded-hr-image-5: linear-gradient($main-bg-60 0%, $main-bg-60);
+$faded-hr-image-6: linear-gradient($main-bg-60 0%, $main-bg-60);
 
 $base-font-color: $black;
 $lighter-base-font-color: $black-80;
-$very-light-text: $gray-1;
+$very-light-text: #ffffff; //$gray-1;
 
 $link-color: #585858; //$dark-color;
 $link-color-d1: #870052; //$dark-color; Agree with terms and conditions
