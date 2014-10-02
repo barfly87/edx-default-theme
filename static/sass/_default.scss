@@ -65,7 +65,7 @@ $header-image: none;
 $header-bg: transparentize(lighten($secondary, 0.5%), .05);//18.5% .25
 $courseware-header-image: none;
 $courseware-header-bg: transparentize(lighten($secondary, 18.5%), .25);
-$footer-bg: $secondary-25;
+$footer-bg: #636363; //$secondary-25;
 $courseware-footer-border: 1px solid $main-bg-60;
 $courseware-footer-shadow: box-shadow(2px 1px 0 rgba(0, 0, 0, .1));
 $courseware-footer-margin: 50px;
@@ -153,9 +153,9 @@ $action-secondary-disabled-fg: $gray;
 
 $sidebar-color: $gray-1;
 
-$homepage__header--gradient__color--alpha: #ffffff; //$secondary-25;
-$homepage__header--gradient__color--bravo: #ffffff; //$secondary-25;
-$homepage__header--background: #ffffff; //$secondary-25;
+$homepage__header--gradient__color--alpha: $secondary-25;
+$homepage__header--gradient__color--bravo: $secondary-25;
+$homepage__header--background: $secondary-25;
 $dashboard-profile-header-image: none;
 $dashboard-profile-header-color: $secondary-25;
 $dashboard-profile-color: $gray-3;
