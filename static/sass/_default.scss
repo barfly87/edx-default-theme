@@ -17,8 +17,8 @@ $bg-color: #ffffff; //Selected Content BG Color, ie. calendar          ***Custom
 
 //Main BG Color Variables
 $main-bg: #232323; //Changed from 822537
-$main-bg-60: $main-bg; //Main Border/HR Color 18.5%
-$main-bg-25: $main-bg;  //25% 
+$main-bg-60: lighten($main-bg, 0.1%); //Main Border/HR Color 18.5%
+$main-bg-25: lighten($main-bg, 0.1%);  //25% 
 
 //Secondary Color Variables
 $secondary: #870052;//Changed from b5a4b7
@@ -70,12 +70,12 @@ $courseware-footer-border: 1px solid $main-bg-60;
 $courseware-footer-shadow: box-shadow(2px 1px 0 rgba(0, 0, 0, .1));
 $courseware-footer-margin: 50px;
 
-$faded-hr-image-1: linear-gradient($main-bg-60 0%, $main-bg-60);
-$faded-hr-image-2: linear-gradient($main-bg-60 0%, $main-bg-60);
-$faded-hr-image-3: linear-gradient($main-bg-60 0%, $main-bg-60);
-$faded-hr-image-4: linear-gradient($main-bg-60 0%, $main-bg-60);
-$faded-hr-image-5: linear-gradient($main-bg-60 0%, $main-bg-60);
-$faded-hr-image-6: linear-gradient($main-bg-60 0%, $main-bg-60);
+//$faded-hr-image-1: linear-gradient($main-bg-60 0%, $main-bg-60);
+//$faded-hr-image-2: linear-gradient($main-bg-60 0%, $main-bg-60);
+//$faded-hr-image-3: linear-gradient($main-bg-60 0%, $main-bg-60);
+//$faded-hr-image-4: linear-gradient($main-bg-60 0%, $main-bg-60);
+//$faded-hr-image-5: linear-gradient($main-bg-60 0%, $main-bg-60);
+//$faded-hr-image-6: linear-gradient($main-bg-60 0%, $main-bg-60);
 
 $base-font-color: $black;
 $lighter-base-font-color: $black-80;
