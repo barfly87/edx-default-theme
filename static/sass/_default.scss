@@ -206,3 +206,7 @@ $video-thumb-url: '../themes/default/images/edx.png';
     margin: 0 !important;
     text-align: right;
 }
+
+header.global-new .nav-courseware div a.nav-courseware-button:hover,header.global-new .nav-courseware div a.nav-courseware-button:focus,header.global-new .nav-courseware div a.nav-courseware-button:active{
+border-color:#ffffff
+}
