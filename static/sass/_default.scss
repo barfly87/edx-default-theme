@@ -210,3 +210,34 @@ $video-thumb-url: '../themes/default/images/edx.png';
 header.global-new .nav-courseware div a.nav-courseware-button:hover,header.global-new .nav-courseware div a.nav-courseware-button:focus,header.global-new .nav-courseware div a.nav-courseware-button:active{
 border-color:#ffffff
 }
+
+header.global .nav-global li a,header.global header.global-new .nav-courseware li a,header.global-new header.global .nav-courseware li a,header.global .nav-global div a,header.global header.global-new .nav-courseware div a,header.global-new header.global .nav-courseware div a{
+display:block;padding:5px;color:#ffffff;font-weight:600
+}
+
+header.global .nav-global li a:hover,header.global header.global-new .nav-courseware li a:hover,header.global-new header.global .nav-courseware li a:hover,header.global .nav-global li a:focus,header.global header.global-new .nav-courseware li a:focus,header.global-new header.global .nav-courseware li a:focus,header.global .nav-global li a:active,header.global header.global-new .nav-courseware li a:active,header.global-new header.global .nav-courseware li a:active,header.global .nav-global div a:hover,header.global header.global-new .nav-courseware div a:hover,header.global-new header.global .nav-courseware div a:hover,header.global .nav-global div a:focus,header.global header.global-new .nav-courseware div a:focus,header.global-new header.global .nav-courseware div a:focus,header.global .nav-global div a:active,header.global header.global-new .nav-courseware div a:active,header.global-new header.global .nav-courseware div a:active{
+text-decoration:none;color:#ffffff
+}
+
+header.global .nav-global li.active a,header.global header.global-new .nav-courseware li.active a,header.global-new header.global .nav-courseware li.active a,header.global .nav-global div.active a,header.global header.global-new .nav-courseware div.active a,header.global-new header.global .nav-courseware div.active a{
+text-decoration:none;color:#585858
+}
+
+header.global-new .nav-global li a,header.global-new .nav-courseware li a,header.global-new .nav-global div a,header.global-new .nav-courseware div a{
+	border-bottom:4px solid rgba(138,0,84,0.95);
+	display:block;
+	padding:5px;
+	font-size:18px;
+	padding-bottom:25px;
+	font-weight:600;
+	font-family:"Open Sans",Arial,Helvetica,sans-serif;
+	color:#ffffff
+}
+
+header.global-new .nav-global li a:hover,header.global-new .nav-courseware li a:hover,header.global-new .nav-global li a:focus,header.global-new .nav-courseware li a:focus,header.global-new .nav-global div a:hover,header.global-new .nav-courseware div a:hover,header.global-new .nav-global div a:focus,header.global-new .nav-courseware div a:focus{
+text-decoration:none;color:#ffffff
+}
+
+.view-login header.global-new .nav-courseware div a.nav-courseware-button:hover,header.global-new .nav-courseware div a.nav-courseware-button:focus,header.global-new .nav-courseware div a.nav-courseware-button:active{
+border-color:#ffffff
+}
