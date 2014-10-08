@@ -223,7 +223,8 @@ header.global .nav-global li a:hover,header.global header.global-new .nav-course
 }
 
 header.global .nav-global li.active a,header.global header.global-new .nav-courseware li.active a,header.global-new header.global .nav-courseware li.active a,header.global .nav-global div.active a,header.global header.global-new .nav-courseware div.active a,header.global-new header.global .nav-courseware div.active a{
-	text-decoration:none;color:#000000; //585858
+	text-decoration:none;
+	color:#000000; //585858
 }
 
 header.global-new .nav-global li a,header.global-new .nav-courseware li a,header.global-new .nav-global div a,header.global-new .nav-courseware div a{
