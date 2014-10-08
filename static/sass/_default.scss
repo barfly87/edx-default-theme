@@ -241,3 +241,20 @@ text-decoration:none;color:#ffffff
 .view-login header.global-new .nav-courseware div a.nav-courseware-button:hover,header.global-new .nav-courseware div a.nav-courseware-button:focus,header.global-new .nav-courseware div a.nav-courseware-button:active{
 border-color:#ffffff
 }
+
+header.global-new .nav-courseware div a.nav-courseware-button {
+  padding: 5px 45px 5px 45px;
+  border: 3px solid #870052;
+  border-radius: 5px;
+  margin-top: -22px;
+}
+
+.view-login header.global-new .nav-courseware div a.nav-courseware-button:hover,header.global-new .nav-courseware div a.nav-courseware-button:focus,header.global-new .nav-courseware div a.nav-courseware-button:active {
+  border-color: #ffffff;  
+}
+
+header.global .nav-courseware li .cta,header.global .nav-courseware div .cta,.view-partial-mktgregister .action.action-register,.view-partial-mktgregister .action.access-courseware {
+  box-shadow: 0 2px 1px 0 none;
+  background: #575757;
+  color: #f2f2f2;
+}
