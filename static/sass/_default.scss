@@ -274,3 +274,11 @@ header.global .nav-courseware li .cta,header.global .nav-courseware div .cta,.vi
   color: #ffffff;
 }
 
+header.global-new {
+  position: relative;
+  height: 75px;
+  width: 100%;
+  border-bottom: 4px solid #2e2e2e;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.1);
+  background: rgba(138,0,84,0.95);
+}
