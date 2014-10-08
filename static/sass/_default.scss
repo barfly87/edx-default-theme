@@ -220,7 +220,7 @@ text-decoration:none;color:#ffffff
 }
 
 header.global .nav-global li.active a,header.global header.global-new .nav-courseware li.active a,header.global-new header.global .nav-courseware li.active a,header.global .nav-global div.active a,header.global header.global-new .nav-courseware div.active a,header.global-new header.global .nav-courseware div.active a{
-text-decoration:none;color:#fbfbfb
+text-decoration:none;color:#fbfbfb //585858
 }
 
 header.global-new .nav-global li a,header.global-new .nav-courseware li a,header.global-new .nav-global div a,header.global-new .nav-courseware div a{
@@ -242,12 +242,12 @@ text-decoration:none;color:#ffffff
 border-color:#ffffff
 }
 
-//header.global-new .nav-courseware div a.nav-courseware-button {
-  //padding: 5px 45px 5px 45px;
-  //border: 3px solid #870052;
-  //border-radius: 5px;
-  //margin-top: -22px;
-//}
+header.global-new .nav-courseware div a.nav-courseware-button {
+  padding: 5px 45px 5px 45px;
+  border: 3px solid $secondary;
+  border-radius: 5px;
+  margin-top: -22px;
+}
 
 .view-login header.global-new .nav-courseware div a.nav-courseware-button:hover,header.global-new .nav-courseware div a.nav-courseware-button:focus,header.global-new .nav-courseware div a.nav-courseware-button:active {
   border-color: #ffffff;  
