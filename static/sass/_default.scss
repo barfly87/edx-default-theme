@@ -1,19 +1,4 @@
-Skip to content
- This repository
-Explore
-Gist
-Blog
-Help
-barfly87 barfly87
- 
-1  Unwatch 
-  Star 0
- Fork 40barfly87/edx-default-theme
-forked from Stanford-Online/edx-default-theme
- branch: master  edx-default-theme / static / sass / _default.scss
-barfly87barfly87 18 days ago test
-1 contributor
-293 lines (230 sloc)  10.698 kb RawBlameHistory   
+
 /****************************************************************************************************
 *   KI theming File
 *
@@ -303,16 +288,12 @@ header.global-new {
   background: rgba(138,0,84,0.95);
 }
 
-.home>header .outer-wrapper {
+.home header .outer-wrapper {
     margin: 0 auto;
     padding: 240px 10px 0px;
     position: relative;
     max-width: 1400px;
     min-width: 760px;
-<<<<<<< HEAD
+
 }
-Status API Training Shop Blog About
-© 2014 GitHub, Inc. Terms Privacy Security Contact
-=======
-}
->>>>>>> origin/master
+
