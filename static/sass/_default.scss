@@ -1,3 +1,4 @@
+
 /****************************************************************************************************
 *   KI theming File
 *
@@ -185,7 +186,9 @@ $footer_margin: ($baseline/4) 0;
 //-----------------
 //  CSS BG Images
 //-----------------
+
 $homepage-bg-image: url('../themes/default/images/sunrise.jpg');//
+
 //$course_index_overlay_logo_file: url('../themes/default/static/images/edx_bw.png');
 $login-banner-image: none;
 $register-banner-image: none;
@@ -284,10 +287,12 @@ header.global-new {
   background: rgba(138,0,84,0.95);
 }
 
-.home>header .outer-wrapper {
+.home header .outer-wrapper {
     margin: 0 auto;
     padding: 240px 10px 0px;
     position: relative;
     max-width: 1400px;
     min-width: 760px;
+
 }
+
